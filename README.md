@@ -1,8 +1,29 @@
-# React + Vite
+## clone
+```terminal
+$ git clone https://github.com/DuryodhanDeep/Airline-Management.git
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
 
-Currently, two official plugins are available:
+```
+## client-side usage(PORT: 5173)
+```terminal
+$ npm i
+packages
+$ npm run dev
+$ node index.js
+development // for run server locally
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+note, choosing Delhi or Mumbai as source or destination has a better chance of flight availability.
+
+```
+## Server-side usage(PORT: 3000)
+
+# Usage (run fullstack app on your machine)
+
+## Prerequisites
+- PostgreSQL
+- [Node](https://nodejs.org/en/download/) ^20
+- [npm](https://nodejs.org/en/download/package-manager/)
+
